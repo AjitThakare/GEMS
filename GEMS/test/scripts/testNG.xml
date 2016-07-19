@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+	<listners>
+		<listner class-name="scripts.FillForm">
+	</listner>
+	</listners>
+	<test name="Test1">
+		<classes>
+			<class name="scripts.FillForm"></class>
+		</classes>
+	</test>
+</suite>
