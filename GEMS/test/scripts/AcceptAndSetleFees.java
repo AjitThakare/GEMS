@@ -23,6 +23,7 @@ import pom.HomePage;
 import pom.LoginPage;
 
 public class AcceptAndSetleFees {
+	//Ajit 
 	WebDriver driver;
 	private LoginPage loginpage;
 	@Test(enabled= false)
