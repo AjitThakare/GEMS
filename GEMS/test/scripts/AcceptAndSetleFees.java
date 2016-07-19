@@ -22,8 +22,7 @@ import org.testng.annotations.Test;
 import pom.HomePage;
 import pom.LoginPage;
 
-public class AcceptAndSetleFees {
-	//Ajit 
+public class AcceptAndSetleFees {//sdfasd
 	WebDriver driver;
 	private LoginPage loginpage;
 	@Test(enabled= false)
