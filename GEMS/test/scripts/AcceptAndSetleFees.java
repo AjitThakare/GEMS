@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 import pom.HomePage;
 import pom.LoginPage;
 
-public class AcceptAndSetleFees {//sdfasd
+public class AcceptAndSetleFees {
 	WebDriver driver;
 	private LoginPage loginpage;
 	@Test(enabled= false)
