@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="203624" started-at="2016-07-19T09:04:49Z" finished-at="2016-07-19T09:08:13Z">
+  <suite name="Default suite" duration-ms="284306" started-at="2016-07-20T09:37:49Z" finished-at="2016-07-20T09:42:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="203624" started-at="2016-07-19T09:04:49Z" finished-at="2016-07-19T09:08:13Z">
+    <test name="Default test" duration-ms="284306" started-at="2016-07-20T09:37:49Z" finished-at="2016-07-20T09:42:33Z">
       <class name="scripts.LibraryModule">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LibraryModule@7ba2a1d2]" name="setUp" is-config="true" duration-ms="5900" started-at="2016-07-19T14:34:49Z" finished-at="2016-07-19T14:34:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="setUp" is-config="true" duration-ms="3748" started-at="2016-07-20T15:07:49Z" finished-at="2016-07-20T15:07:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLibrary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.LibraryModule@7ba2a1d2]" name="testLibrary" duration-ms="197428" started-at="2016-07-19T14:34:55Z" data-provider="LibraryData" finished-at="2016-07-19T14:38:13Z">
+        <test-method status="PASS" signature="testLibrary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="testLibrary" duration-ms="280371" started-at="2016-07-20T15:07:52Z" data-provider="LibraryData" finished-at="2016-07-20T15:12:33Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLibrary -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.LibraryModule@7ba2a1d2]" name="cleanUp" is-config="true" duration-ms="78" started-at="2016-07-19T14:38:13Z" finished-at="2016-07-19T14:38:13Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="cleanUp" is-config="true" duration-ms="31" started-at="2016-07-20T15:12:33Z" finished-at="2016-07-20T15:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
