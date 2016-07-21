@@ -42,9 +42,9 @@ public class LibraryModule {
 
 		hm.changeRoleToLibrarian();
 		LibraryPage lib= new LibraryPage(driver);
-		lib.configureLibary(libraryName);
-//		 lib.configureRuleBook();
-//		 lib.viewRuleBook();
+	//	lib.configureLibary(libraryName); Done!
+		 lib.configureRuleBook(); 
+//		 lib.viewRuleBook();  //Not Done yet.
 
 	}
 	

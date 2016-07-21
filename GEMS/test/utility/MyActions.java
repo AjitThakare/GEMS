@@ -110,4 +110,9 @@ public static void click(WebDriver driver, WebElement element) {
 		// If element is not found after click, it is ok !
 	} 
 }
+public static void Highlight(WebDriver driver, WebElement element)
+{
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	js.executeScript("arguments[0].style.border='5px solid yellow'", element); 
+}
 }

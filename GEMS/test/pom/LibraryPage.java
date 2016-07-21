@@ -1,5 +1,6 @@
 package pom;
 
+import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,6 +45,120 @@ public void configureRuleBook()
 	MyActions.click(driver, Catalogue);
 	MyActions.click(driver, RuleBook);
 	MyActions.click(driver, ConfigureRB);
+	
+	String [] courseTypes = dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "COURSE");
+Select select= new Select(driver.findElement(By.id("cmbCourseType-4")));
+	for (String course : courseTypes) 
+	{
+		System.out.println("Setting Rules for:"+course+"--------------------------------------------------");
+		Log.info("Setting Rules for:"+course+"--------------------------------------------------");
+		select.selectByVisibleText(course);
+		setGeneralRule(course);
+		System.out.println("Done :"+course+"-------**************************------------");
+		Log.info("Done :"+course+"-------------*************************-------------");
+	//setFineRule(course);
+	//setDepositRule(course);
+	
+	}
+	
+}
+private void setGeneralRule(String course) {
+	String [][] BookRules= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "BooksGR");
+	String [][] NewsLetterRules= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "NewsLetterGR");
+	String [][] RHB= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "RHB");
+	String [][] CDS= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "CDS");
+	String [][] DVDS= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "DVDS");
+	String [][] Journals= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "JOURNALS");
+	
+	
+	List <WebElement> totalLibraryItems=driver.findElements(By.cssSelector("[id*='myTabContent'] tr td")); // [id*='myTabContent'][class='tab-content'] tr
+	int libTypeIndex=0; // 0=books, 1= journals,2=cds as from UI
+	for (WebElement webElement : totalLibraryItems) 
+	{	
+		System.out.println("Webelement:"+webElement.getText());
+		Log.info("Entering general rule for "+webElement.getText());
+		MyActions.click(driver,webElement);
+		int index=0;
+		List <WebElement> txtFields=driver.findElements(By.cssSelector("[id*='libProductTypesDiv'][id$='"+libTypeIndex+"'] tr td input[type='text']"));
+			if(webElement.getText().equals("BOOKS"))
+			{
+			for(int i=0;i<BookRules.length;i++) //no. of rows
+				{
+					for(int j=0;j<BookRules[0].length;j++) // no. of columns
+					{	//MyActions.Highlight(driver,txtFields.get(index));
+						txtFields.get(index).clear();
+						txtFields.get(index).sendKeys(BookRules[i][j]);
+						index++;
+					}
+				}
+			}
+			else if(webElement.getText().equals("JOURNALS/PERIODICALS/MAGAZINES"))
+			{
+				for(int i=0;i<Journals.length;i++) //no. of rows
+					{
+						for(int j=0;j<Journals[0].length;j++) // no. of columns
+						{	txtFields.get(index).clear();
+							txtFields.get(index).sendKeys(Journals[i][j]);
+							index++;
+						}
+					}
+				}
+			else if(webElement.getText().equals("CDS"))
+			{
+				for(int i=0;i<CDS.length;i++) //no. of rows
+					{
+						for(int j=0;j<CDS[0].length;j++) // no. of columns
+						{	txtFields.get(index).clear();
+							txtFields.get(index).sendKeys(CDS[i][j]);
+							index++;
+						}
+					}
+				}
+			else if(webElement.getText().equals("READING HALL BOOKS"))
+			{
+				for(int i=0;i<RHB.length;i++) //no. of rows
+					{
+						for(int j=0;j<RHB[0].length;j++) // no. of columns
+						{	txtFields.get(index).clear();
+							txtFields.get(index).sendKeys(RHB[i][j]);
+							index++;
+						}
+					}
+				}
+			else if(webElement.getText().equals("DVDS"))
+			{
+				for(int i=0;i<DVDS.length;i++) //no. of rows
+					{
+						for(int j=0;j<DVDS[0].length;j++) // no. of columns
+						{	txtFields.get(index).clear();
+							txtFields.get(index).sendKeys(DVDS[i][j]);
+							index++;
+						}
+					}
+				}
+			else if(webElement.getText().equals("NEWS LETTERS"))
+			{
+				//txtFields=driver.findElements(By.cssSelector("#libProductTypesDiv216-"+libTypeIndex+" tr td input[type='text']"));
+				
+				for(int i=0;i<NewsLetterRules.length;i++) //no. of rows
+				{
+					for(int j=0;j<NewsLetterRules[0].length;j++) // no. of columns
+					{	txtFields.get(index).clear();
+						txtFields.get(index).sendKeys(NewsLetterRules[i][j]);
+						index++;
+					}
+				}
+			}
+		
+		MyActions.click(driver,By.cssSelector("[id*='libProductTypesDiv'][id$='"+libTypeIndex+"'] tr td input[type='button']"));
+		MyActions.click(driver, By.id("popup_ok"));
+		libTypeIndex++;
+	}
+	
+	
+	
+	
+	
 }
 public void viewRuleBook()
 {
@@ -72,7 +187,7 @@ public void configureLibary(String libraryName)
 			//configureLibraryMedia();    //uncheck it after finish
 			//configureLibraryLevel();   //
 			//configureFinancePolicy();
-			configureMemberTypes(); // Configures member types for included departments (Taken from file)
+			//configureMemberTypes(); // Configures member types for included departments (Taken from file)
 			
 		}
 	}
@@ -91,21 +206,21 @@ private void configureMemberTypes() {
 			if(item.equals(policyName))
 			{
 				MyActions.click(driver, totalDeptRows.get(i).findElement(By.cssSelector("input")));
-//				MyActions.click(driver, By.linkText("Add"));
-//				String msg = driver.findElement(By.cssSelector("#addMemberTypes>tbody>tr>th")).getText().toString();
-//				if(msg.equals("All member types are added"))
-//				{
-//					Log.debug("Add members has message-"+msg);	
-//					Log.info("No need to add members");	
-//				}
-//				else{
-//					System.out.println("Message is -"+msg);
-//					// Code to add members
-//				}			
+				MyActions.click(driver, By.linkText("Add"));
+				String msg = driver.findElement(By.cssSelector("#addMemberTypes>tbody>tr>th")).getText().toString();
+				if(msg.equals("All member types are added"))
+				{
+					Log.debug("Add members has message-"+msg);	
+					Log.info("No need to add members");	
+				}
+				else{
+					System.out.println("Message is -"+msg);
+					// Code to add members
+				}			
 				MyActions.click(driver,By.linkText("Configure"));
 				String [][] Data = dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "MemberTypeConfig");
 				String [] memberNames=dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "Members"); 
-				WebElement firstMember= driver.findElement(By.cssSelector("#viewMemberTypes tbody td strong"));
+			//	WebElement firstMember= driver.findElement(By.cssSelector("#viewMemberTypes tbody td strong")); first member is student. Flow is not checking what are types of member to add data, simply filling data in order it received it.
 				List <WebElement> allMembers=driver.findElements(By.cssSelector("#viewMemberTypes>thead>tr tr:nth-child(2) input"));
 				WebElement element;
 				String inputToElement;
