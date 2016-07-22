@@ -1,6 +1,5 @@
 package pom;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,9 +41,11 @@ public LibraryPage(WebDriver driver) {
 }
 public void configureRuleBook()
 {
-	MyActions.click(driver, Catalogue);
-	MyActions.click(driver, RuleBook);
-	MyActions.click(driver, ConfigureRB);
+//	MyActions.click(driver, Catalogue); // enable it in the end
+//	MyActions.click(driver, RuleBook);
+//	MyActions.click(driver, ConfigureRB);
+	
+	driver.get("http://uat.deccansociety.com/lib_libraryProductRuleConfiguration.htm"); //  direct url for rule config
 	
 	String [] courseTypes = dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "COURSE");
 Select select= new Select(driver.findElement(By.id("cmbCourseType-4")));
@@ -56,9 +57,253 @@ Select select= new Select(driver.findElement(By.id("cmbCourseType-4")));
 		setGeneralRule(course);
 		System.out.println("Done :"+course+"-------**************************------------");
 		Log.info("Done :"+course+"-------------*************************-------------");
-	//setFineRule(course);
+		setFineRule(course);
 	//setDepositRule(course);
 	
+	}
+	//driver.navigate().refresh();
+}
+private void setFineRule(String course) {
+	String [] Student= dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "StudentFine");
+	String [] Employee= dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "EmplyeeFine");
+	String [] TeachingEmp= dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "TEmpFine");
+	String [] NTEmpl=dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "NTEmpFine");
+	String [] VEmpl= dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "VEmpFine");
+	String [] ExecEmpl= dp.getSimpleArray("test\\resources\\data\\registrationData.xls","Library", "ExecEmplFine");
+	
+//	libraries=driver.findElements(By.cssSelector("div[id='accordion'] a td")); // to get library name
+//	if(libraries.size()==0) 
+//	{
+//		System.out.println("There are no Libraries added to this account");
+//		Log.info("There are no Libraries added to this account");
+//	}
+//	MyActions.click(driver,libraries.get(0)); // BJ wadia 
+//	else{
+//		int i=0;
+//		String LibName=libraries.get(i).getText();
+//		while(!LibName.equalsIgnoreCase("BJ WADIA CENTRAL LIBRARY")) //in  case u want another library
+//		{
+//			i++;
+//			LibName=libraries.get(i).getText();
+//		}
+//		MyActions.click(driver, libraries.get(i));
+//		
+//	}
+	WebElement tr= driver.findElement(By.cssSelector("[id*=myTabProductTypes]"));
+	MyActions.click(driver,tr.findElement(By.xpath("//a[contains(text(),'Fine Rules')]"))); // Click on fine rules tab
+
+	List <WebElement> totalMembers=driver.findElements(By.cssSelector("[id*='accordionFineRules'] tr")); // [id*='myTabContent'][class='tab-content'] tr
+	int libMembers=1; // 1=Student, 2= Employee
+	for (WebElement webElement : totalMembers) 
+	{	
+		System.out.println("Webelement:"+webElement.getText());
+		Log.info("Entering Fine rule for "+webElement.getText());
+		MyActions.click(driver,webElement);		
+		//List <WebElement> txtFields=driver.findElements(By.cssSelector("[id*='libProductTypesDiv'][id$='"+libMembers+"'] tr td input[type='text']"));
+			if(webElement.getText().equals("STUDENT"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv1 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(Student[0].toString());
+
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(Student[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(Student[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(Student[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+					
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='1'] tr td a")); // 1 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(Student[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(Student[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(Student[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(Student[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+			else if(webElement.getText().equals("EMPLOYEE"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv2 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(Employee[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(Employee[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(Employee[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(Employee[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='2'] tr td a")); // 2 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(Employee[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(Employee[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(Employee[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(Employee[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+			else if(webElement.getText().equals("TEACHING EMPLOYEE"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv3 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(TeachingEmp[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(TeachingEmp[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(TeachingEmp[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(TeachingEmp[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='3'] tr td a")); // 2 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(TeachingEmp[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(TeachingEmp[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(TeachingEmp[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(TeachingEmp[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+			else if(webElement.getText().equals("NON-TEACHING EMPLOYEE"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv4 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(NTEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(NTEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(NTEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(NTEmpl[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='4'] tr td a")); // 2 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(NTEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(NTEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(NTEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(NTEmpl[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+			else if(webElement.getText().equals("VISITING EMPLOYEE"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv5 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(VEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(VEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(VEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(VEmpl[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='5'] tr td a")); // 2 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(VEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(VEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(VEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(VEmpl[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+			else if(webElement.getText().equals("EXECUTIVE EMPLOYEE(MEMBERS)"))
+			{
+				String msg=driver.findElement(By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='"+libMembers+"'] tbody>tr>td>b")).getText();
+				if(msg.equals("Rules has to be cofigured..!!No Records found..!!"))
+				{
+					System.out.println("Rules not present, need to add rules");
+					MyActions.click(driver, By.cssSelector("#libMemberDiv6 a"));
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(ExecEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(ExecEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(ExecEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(ExecEmpl[3].toString());
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+				else
+				{
+					System.out.println("Rules already present, Need to edit");
+					MyActions.click(driver, By.cssSelector("[id*='tbnFineRulesConfiguration'][id$='6'] tr td a")); // 2 can be replaced by libMembers
+					Select select= new Select(driver.findElement(By.id("cmbRule")));
+					select.selectByVisibleText(ExecEmpl[0].toString());
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).clear(); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).clear();
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtFromDays']")).sendKeys(ExecEmpl[1].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtToDays']")).sendKeys(ExecEmpl[2].toString()); 
+					driver.findElement(By.cssSelector("#divConfigureFineRules input[id='txtRuleValue']")).sendKeys(ExecEmpl[3].toString());
+					
+					MyActions.click(driver, By.cssSelector("#divConfigureFineRules input[type='button']"));
+				}
+			}
+		
+//		MyActions.click(driver,By.cssSelector("[id*='libProductTypesDiv'][id$='"+libMembers+"'] tr td input[type='button']"));
+//		MyActions.click(driver, By.id("popup_ok"));
+		libMembers++;
 	}
 	
 }
@@ -70,7 +315,20 @@ private void setGeneralRule(String course) {
 	String [][] DVDS= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "DVDS");
 	String [][] Journals= dp.getTableArray("test\\resources\\data\\registrationData.xls","Library", "JOURNALS");
 	
-	
+	libraries=driver.findElements(By.cssSelector("div[id='accordion'] a td")); // to get library name
+	if(libraries.size()==0) 
+	{
+		System.out.println("There are no Libraries added to this account");
+		Log.info("There are no Libraries added to this account");
+	}
+	if(driver.findElement(By.cssSelector("[id*='libProductTypes']")).isDisplayed())
+	{
+		System.out.println("Lib details are OPEN");
+	}else
+	{
+		System.out.println("Need to open LIbrary Div ");
+	MyActions.click(driver,libraries.get(0)); // BJ wadia 
+	}
 	List <WebElement> totalLibraryItems=driver.findElements(By.cssSelector("[id*='myTabContent'] tr td")); // [id*='myTabContent'][class='tab-content'] tr
 	int libTypeIndex=0; // 0=books, 1= journals,2=cds as from UI
 	for (WebElement webElement : totalLibraryItems) 

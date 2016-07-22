@@ -30,3 +30,386 @@
 2016-07-21 16:31:20,274 INFO  [Log] * * * User Logged In * * * 
 2016-07-21 16:31:20,274 INFO  [Log] with Username indrayanighadge@gmail.com 
 2016-07-21 16:31:20,274 INFO  [Log] ########################## 
+2016-07-22 11:47:58,496 INFO  [Log] ########################## 
+2016-07-22 11:47:58,512 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 11:47:58,512 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 11:47:58,512 INFO  [Log] ########################## 
+2016-07-22 11:48:48,404 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 11:48:48,795 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 11:49:16,580 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 11:49:43,979 INFO  [Log] Entering general rule for CDS 
+2016-07-22 11:50:11,187 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 11:50:40,037 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 11:51:07,714 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 11:51:41,928 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 11:55:18,508 INFO  [Log] ########################## 
+2016-07-22 11:55:18,508 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 11:55:18,508 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 11:55:18,508 INFO  [Log] ########################## 
+2016-07-22 11:56:08,420 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 11:56:08,421 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 11:56:16,368 INFO  [Log] Entering Fine rule for  
+2016-07-22 13:38:04,506 INFO  [Log] ########################## 
+2016-07-22 13:38:04,506 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 13:38:04,506 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 13:38:04,506 INFO  [Log] ########################## 
+2016-07-22 13:38:54,619 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 13:38:54,620 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 13:44:35,259 INFO  [Log] ########################## 
+2016-07-22 13:44:35,259 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 13:44:35,259 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 13:44:35,259 INFO  [Log] ########################## 
+2016-07-22 13:45:24,341 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 13:45:24,342 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 13:58:52,706 INFO  [Log] ########################## 
+2016-07-22 13:58:52,706 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 13:58:52,707 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 13:58:52,707 INFO  [Log] ########################## 
+2016-07-22 13:59:42,434 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 13:59:42,435 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 13:59:59,316 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:00:22,543 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:00:31,081 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:00:39,652 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:00:48,267 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 14:00:56,893 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 14:01:05,442 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:01:24,095 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:01:41,597 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:01:59,190 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:02:16,705 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:02:34,222 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:02:51,842 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 14:04:02,753 INFO  [Log] ########################## 
+2016-07-22 14:04:02,753 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:04:02,753 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:04:02,753 INFO  [Log] ########################## 
+2016-07-22 14:04:51,751 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:04:51,769 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:05:08,410 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:05:32,574 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:05:41,062 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:05:49,673 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:08:01,112 INFO  [Log] ########################## 
+2016-07-22 14:08:01,113 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:08:01,113 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:08:01,113 INFO  [Log] ########################## 
+2016-07-22 14:08:50,011 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:08:50,029 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:09:06,877 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:09:30,072 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:09:47,341 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:13:18,442 INFO  [Log] ########################## 
+2016-07-22 14:13:18,442 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:13:18,442 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:13:18,443 INFO  [Log] ########################## 
+2016-07-22 14:14:08,378 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:14:08,440 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:14:25,251 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:14:48,366 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:14:56,972 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:15:05,518 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:15:14,039 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 14:15:22,639 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 14:15:31,267 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:15:49,780 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:16:07,219 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:16:24,609 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:23:40,478 INFO  [Log] ########################## 
+2016-07-22 14:23:40,478 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:23:40,478 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:23:40,478 INFO  [Log] ########################## 
+2016-07-22 14:24:29,874 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:24:29,897 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:24:46,736 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:25:09,840 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:25:18,402 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:25:27,078 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:25:35,772 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 14:25:44,468 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 14:26:07,767 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:26:26,246 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:26:43,683 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:27:01,315 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:27:18,885 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:27:36,351 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:27:53,815 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 14:27:54,408 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 14:36:13,294 INFO  [Log] ########################## 
+2016-07-22 14:36:13,294 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:36:13,294 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:36:13,294 INFO  [Log] ########################## 
+2016-07-22 14:37:02,345 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:37:02,364 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:37:19,202 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:37:42,562 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:37:51,095 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:38:02,722 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:38:11,459 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 14:38:20,232 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 14:38:43,455 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:39:01,963 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:39:19,409 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:39:36,837 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:39:54,309 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:40:11,774 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:40:29,253 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 14:40:30,927 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 14:40:55,946 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:41:13,365 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:41:30,808 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:41:48,275 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:42:05,677 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:42:23,102 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:57:26,611 INFO  [Log] ########################## 
+2016-07-22 14:57:26,611 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 14:57:26,611 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 14:57:26,611 INFO  [Log] ########################## 
+2016-07-22 14:58:15,607 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 14:58:15,608 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 14:58:32,382 INFO  [Log] Entering Fine rule for  
+2016-07-22 14:58:55,838 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 14:59:04,390 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 14:59:27,724 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 14:59:51,029 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 15:00:15,950 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 15:00:39,556 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:00:57,793 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:01:15,499 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:01:33,154 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:01:50,818 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:02:08,409 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:02:25,958 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 15:02:26,583 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 15:02:52,853 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:03:10,442 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:03:18,371 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:03:27,446 INFO  [Log] Entering Fine rule for DVDS 
+2016-07-22 15:10:01,917 INFO  [Log] ########################## 
+2016-07-22 15:10:01,918 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 15:10:01,918 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 15:10:01,918 INFO  [Log] ########################## 
+2016-07-22 15:10:51,837 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 15:10:51,869 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 15:11:11,548 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:11:35,027 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 15:11:43,663 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 15:11:52,340 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 15:12:01,025 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 15:12:09,734 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 15:12:33,155 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:12:51,694 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:13:09,229 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:13:26,789 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:13:44,284 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:14:01,773 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:14:19,275 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 15:14:19,993 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 15:14:46,187 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:15:03,792 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:15:21,387 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:15:31,433 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:23:19,472 INFO  [Log] ########################## 
+2016-07-22 15:23:19,472 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 15:23:19,472 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 15:23:19,472 INFO  [Log] ########################## 
+2016-07-22 15:24:10,587 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 15:24:10,619 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 15:24:39,392 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:25:02,892 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 15:25:11,590 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 15:25:35,217 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 15:25:58,745 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 15:26:07,505 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 15:26:16,389 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:26:34,883 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:26:52,251 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:27:09,632 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:27:27,148 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:27:44,517 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:34:18,310 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 15:34:18,985 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 15:35:16,100 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:35:40,539 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 15:35:49,186 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 15:35:58,116 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 15:36:07,085 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 15:36:15,996 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 15:36:24,917 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:36:43,616 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:37:01,120 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:37:18,678 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:37:36,162 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:37:53,735 INFO  [Log] Entering Fine rule for  
+2016-07-22 15:52:08,692 INFO  [Log] ########################## 
+2016-07-22 15:52:08,692 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 15:52:08,692 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 15:52:08,692 INFO  [Log] ########################## 
+2016-07-22 15:52:58,152 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 15:53:05,552 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 15:54:51,886 INFO  [Log] ########################## 
+2016-07-22 15:54:51,902 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 15:54:51,902 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 15:54:51,902 INFO  [Log] ########################## 
+2016-07-22 15:55:41,198 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 15:55:48,579 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 15:58:12,326 INFO  [Log] ########################## 
+2016-07-22 15:58:12,326 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 15:58:12,326 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 15:58:12,326 INFO  [Log] ########################## 
+2016-07-22 15:59:02,093 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 15:59:15,342 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 16:01:23,611 INFO  [Log] ########################## 
+2016-07-22 16:01:23,611 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:01:23,611 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:01:23,611 INFO  [Log] ########################## 
+2016-07-22 16:02:15,152 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:02:22,551 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 16:02:22,551 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 16:02:30,436 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:06:18,898 INFO  [Log] ########################## 
+2016-07-22 16:06:18,898 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:06:18,898 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:06:18,898 INFO  [Log] ########################## 
+2016-07-22 16:06:36,995 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:06:45,906 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:07:15,290 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:07:43,526 INFO  [Log] Entering general rule for CDS 
+2016-07-22 16:08:14,295 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 16:08:40,018 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 16:09:05,545 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 16:09:39,281 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 16:09:47,084 INFO  [Log] Entering Fine rule for  
+2016-07-22 16:10:10,516 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 16:10:33,958 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 16:10:57,218 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 16:11:22,289 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 16:11:45,493 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 16:12:08,540 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 16:12:17,645 INFO  [Log] Entering general rule for  
+2016-07-22 16:18:36,818 INFO  [Log] ########################## 
+2016-07-22 16:18:36,818 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:18:36,818 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:18:36,818 INFO  [Log] ########################## 
+2016-07-22 16:18:54,807 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:19:03,681 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:19:32,344 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:19:58,036 INFO  [Log] Entering general rule for CDS 
+2016-07-22 16:20:23,311 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 16:20:53,792 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 16:21:22,408 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 16:21:56,690 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 16:22:04,563 INFO  [Log] Entering Fine rule for  
+2016-07-22 16:22:27,896 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 16:22:36,608 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 16:23:00,095 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 16:23:23,498 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 16:23:46,872 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 16:24:10,320 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 16:24:19,272 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:24:47,013 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:41:12,798 INFO  [Log] ########################## 
+2016-07-22 16:41:12,798 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:41:12,798 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:41:12,798 INFO  [Log] ########################## 
+2016-07-22 16:41:31,007 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:43:16,354 INFO  [Log] ########################## 
+2016-07-22 16:43:16,354 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:43:16,354 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:43:16,354 INFO  [Log] ########################## 
+2016-07-22 16:43:34,477 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:43:43,197 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:44:10,145 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:45:50,502 INFO  [Log] ########################## 
+2016-07-22 16:45:50,502 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:45:50,502 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:45:50,502 INFO  [Log] ########################## 
+2016-07-22 16:46:11,571 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:46:21,243 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:46:47,958 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:47:14,669 INFO  [Log] Entering general rule for CDS 
+2016-07-22 16:47:39,853 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 16:48:04,906 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 16:48:31,068 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 16:48:57,770 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 16:49:05,619 INFO  [Log] Entering Fine rule for  
+2016-07-22 16:49:29,011 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 16:49:52,260 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 16:50:15,574 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 16:50:39,038 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 16:51:02,488 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 16:51:25,989 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 16:51:27,208 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:51:58,462 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:52:24,566 INFO  [Log] Entering general rule for CDS 
+2016-07-22 16:56:47,268 INFO  [Log] ########################## 
+2016-07-22 16:56:47,268 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 16:56:47,268 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 16:56:47,268 INFO  [Log] ########################## 
+2016-07-22 16:57:05,672 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 16:57:14,602 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 16:57:43,387 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 16:58:09,158 INFO  [Log] Entering general rule for CDS 
+2016-07-22 16:58:34,783 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 16:59:00,403 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 16:59:26,021 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 16:59:59,794 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 17:00:14,403 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 17:00:15,699 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 17:00:47,049 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 17:01:13,036 INFO  [Log] Entering general rule for CDS 
+2016-07-22 17:01:39,061 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 17:02:05,139 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 17:02:31,306 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 17:02:58,047 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 17:03:05,926 INFO  [Log] Entering Fine rule for  
+2016-07-22 17:03:29,477 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 17:03:52,934 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 17:04:16,373 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 17:04:39,774 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 17:05:03,309 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 17:07:23,657 INFO  [Log] ########################## 
+2016-07-22 17:07:23,657 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 17:07:23,657 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 17:07:23,657 INFO  [Log] ########################## 
+2016-07-22 17:07:41,853 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 17:07:50,783 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 17:08:19,459 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 17:08:44,969 INFO  [Log] Entering general rule for CDS 
+2016-07-22 17:09:12,946 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 17:09:43,967 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 17:10:12,717 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 17:10:47,090 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 17:10:54,990 INFO  [Log] Entering Fine rule for  
+2016-07-22 17:25:07,805 INFO  [Log] ########################## 
+2016-07-22 17:25:07,805 INFO  [Log] * * * User Logged In * * * 
+2016-07-22 17:25:07,805 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-22 17:25:07,805 INFO  [Log] ########################## 
+2016-07-22 17:25:28,854 INFO  [Log] Setting Rules for:PG-------------------------------------------------- 
+2016-07-22 17:25:37,760 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 17:26:04,913 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 17:26:30,341 INFO  [Log] Entering general rule for CDS 
+2016-07-22 17:26:55,750 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 17:27:21,106 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 17:27:46,123 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 17:28:13,183 INFO  [Log] Done :PG-------------*************************------------- 
+2016-07-22 17:28:22,129 INFO  [Log] Entering Fine rule for  
+2016-07-22 17:28:45,257 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 17:29:08,513 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 17:29:31,808 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 17:29:54,788 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 17:30:17,971 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-22 17:30:41,369 INFO  [Log] Setting Rules for:UG-------------------------------------------------- 
+2016-07-22 17:30:42,571 INFO  [Log] Entering general rule for BOOKS 
+2016-07-22 17:31:13,101 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-22 17:31:41,458 INFO  [Log] Entering general rule for CDS 
+2016-07-22 17:32:07,056 INFO  [Log] Entering general rule for DVDS 
+2016-07-22 17:32:32,520 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-22 17:32:58,259 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-22 17:33:23,974 INFO  [Log] Done :UG-------------*************************------------- 
+2016-07-22 17:33:31,728 INFO  [Log] Entering Fine rule for  
+2016-07-22 17:33:55,041 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-22 17:34:18,191 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-22 17:34:41,815 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-22 17:35:04,956 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-22 17:35:28,157 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
