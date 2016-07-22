@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 public class SaveLogPerDate {
 	
 	public static void main(String[] args) {
-		String fileName="C:\\Users\\ajit_thakare\\workspace\\GEMS\\logfile.log"; // File to backup
+		String fileName="E:\\Totoise.git\\GEMS\\logfile.log"; // File to backup
 		
 		File source = new File(fileName);
 		System.out.println(source.getAbsolutePath());

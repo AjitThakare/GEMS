@@ -16,6 +16,7 @@ public class LoginPage extends LoadableComponent<LoginPage> {
 	private WebDriver driver;
 	@FindBy(id = "j_username")
 	WebElement username;
+	String user;
 
 	@FindBy(id = "password-1")
 	WebElement password;
@@ -28,10 +29,11 @@ public class LoginPage extends LoadableComponent<LoginPage> {
 
 	public void setUsername(String string) {
 		username.sendKeys(string);
+		user=string;
 	}
 
 	public String  getUsername() {
-		return username.getText();
+		return user;
 	}
 
 	public void setPassword(String pass) {
@@ -39,12 +41,11 @@ public class LoginPage extends LoadableComponent<LoginPage> {
 	}
 
 	public  HomePage submit() {
-		String userName=getUsername();
 		MyActions.click(driver, submitButton);
 		HomePage homepage= new HomePage(driver);
 		Log.info("##########################");
 		Log.info("* * * User Logged In * * *");
-		Log.info("with Username "+userName);
+		Log.info("with Username "+user);
 		Log.info("##########################");
 		return homepage;
 

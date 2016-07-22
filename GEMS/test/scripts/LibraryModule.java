@@ -20,7 +20,6 @@ import org.testng.annotations.Test;
 import pom.HomePage;
 import pom.LibraryPage;
 import pom.LoginPage;
-import pom.ProvisionalAdmission;
 
 public class LibraryModule {
 	WebDriver driver;
@@ -43,9 +42,9 @@ public class LibraryModule {
 
 		hm.changeRoleToLibrarian();
 		LibraryPage lib= new LibraryPage(driver);
-		lib.configureLibary(libraryName);
-//		 lib.configureRuleBook();
-//		 lib.viewRuleBook();
+	//	lib.configureLibary(libraryName); Done!
+		 lib.configureRuleBook(); 
+//		 lib.viewRuleBook();  //Not Done yet.
 
 	}
 	

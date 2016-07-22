@@ -29,14 +29,14 @@ public static void click(WebDriver driver,By by)
 		if(modal.isDisplayed())
 		{
 			//Log.warn("Modal backdrop found while clicking - >"+by.toString());
-			System.out.println("Modal drop is displayed .. . .");
+			//System.out.println("Modal drop is displayed .. . .");
 			// Wait for modal to close 
 			(new WebDriverWait(driver,5)).until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".modal-backdrop.in"))); // waits for invisibility of the backdrop
 		}
 		}
 			catch (Exception e) {
 				//Log.info("Modal backdrop not found while clicking - >"+by.toString());
-				System.out.println("No modal backdrop ");
+				//System.out.println("No modal backdrop ");
 			}
         (new WebDriverWait(driver, 5)).until(ExpectedConditions.elementToBeClickable(by));
        
@@ -83,14 +83,14 @@ public static void click(WebDriver driver, WebElement element) {
 		if(modal.isDisplayed())
 		{
 		//	Log.warn("Modal backdrop found while clicking - >"+element.toString());
-			System.out.println("Modal drop is displayed .. . .");
+		//	System.out.println("Modal drop is displayed .. . .");
 			// Wait for modal to close 
 			(new WebDriverWait(driver,10)).until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".modal-backdrop.in"))); // waits for invisibility of the backdrop
 		}
 		}
 		catch (Exception e) {
 		//	Log.info("Modal backdrop not found while clicking - >"+element.toString());
-			System.out.println("No modal backdrop ");
+		//	System.out.println("No modal backdrop ");
 		}
         (new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(element));
          element.click();
@@ -109,5 +109,10 @@ public static void click(WebDriver driver, WebElement element) {
     catch (Exception e) {
 		// If element is not found after click, it is ok !
 	} 
+}
+public static void Highlight(WebDriver driver, WebElement element)
+{
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	js.executeScript("arguments[0].style.border='5px solid yellow'", element); 
 }
 }
