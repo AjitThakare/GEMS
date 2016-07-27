@@ -2,51 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="668320" started-at="2016-07-22T11:54:43Z" finished-at="2016-07-22T12:05:51Z">
+  <suite name="Default suite" duration-ms="79645" started-at="2016-07-27T13:23:42Z" finished-at="2016-07-27T13:25:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="668320" started-at="2016-07-22T11:54:43Z" finished-at="2016-07-22T12:05:51Z">
-      <class name="scripts.LibraryModule">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="setUp" is-config="true" duration-ms="4734" started-at="2016-07-22T17:24:43Z" finished-at="2016-07-22T17:24:47Z">
+    <test name="Default test" duration-ms="79645" started-at="2016-07-27T13:23:42Z" finished-at="2016-07-27T13:25:01Z">
+      <class name="scripts.NewProgramGenerator">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.NewProgramGenerator@3458fd2]" name="setUp" is-config="true" duration-ms="3890" started-at="2016-07-27T18:53:42Z" finished-at="2016-07-27T18:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLibrary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="testLibrary" duration-ms="663368" started-at="2016-07-22T17:24:47Z" data-provider="LibraryData" finished-at="2016-07-22T17:35:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[indrayanighadge@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[BJ WADIA CENTRAL LIBRARY]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DES Pune Institute]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="createNewProgram()[pri:0, instance:scripts.NewProgramGenerator@3458fd2]" name="createNewProgram" duration-ms="75693" started-at="2016-07-27T18:53:46Z" finished-at="2016-07-27T18:55:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLibrary -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.LibraryModule@5c1da5d7]" name="cleanUp" is-config="true" duration-ms="46" started-at="2016-07-22T17:35:51Z" finished-at="2016-07-22T17:35:51Z">
+        </test-method> <!-- createNewProgram -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.NewProgramGenerator@3458fd2]" name="cleanUp" is-config="true" duration-ms="46" started-at="2016-07-27T18:55:01Z" finished-at="2016-07-27T18:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- scripts.LibraryModule -->
+      </class> <!-- scripts.NewProgramGenerator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
