@@ -82,6 +82,7 @@ public class HomePage {
 	@FindBy(id = "approveDisApproveStatusGlobal")
 	WebElement GlobalApproveStatus;
 	private WebElement librarianRole;
+	private WebElement head_Admin_Role;
 	
 	public void setProgramForMeritList(String programForMeritList) {
 		Select program = new Select(this.programForMeritList);
@@ -158,6 +159,11 @@ public class HomePage {
 				+ df.getDd() + "')]"));
 		MyActions.click(driver, uiDate);
 	}
+	public void logout()
+	{
+		openOptionsMenu();
+		MyActions.click(driver,By.linkText("Logout"));
+	}
 
 	public void acceptFeesFromStudentsFromFile() {
 		// file handling code for excel
@@ -228,7 +234,19 @@ Log.info("in function acceptFeesFromStudentsFromFile()");
 				.linkText("Admission Admin"));
 		MyActions.click(driver, admission_Admin_Role);
 	}
-
+	public void changeRoleToHeadAdmin() {
+		openOptionsMenu();
+		head_Admin_Role = driver.findElement(By
+				.linkText("Head Admin"));
+		MyActions.click(driver, head_Admin_Role);
+	}
+public void gotoPostAndROleConfig()
+{
+	driver.get("http://uat.deccansociety.com/ihe_postandRoleConfiguration.htm"); // for deccan society only
+	//MyActions.click(driver, By.linkText("Posts"));  
+	//MyActions.click(driver, By.linkText("Post and Role Configuration"));
+	
+}
 	public void changeRoleToFinanceAdmin() {
 		openOptionsMenu();
 		finance_Admin_Role = driver.findElement(By.linkText("Finance Admin"));
