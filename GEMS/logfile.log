@@ -1,8 +1,282 @@
-2016-07-27 18:51:45,275 INFO  [Log] ########################## 
-2016-07-27 18:51:45,275 INFO  [Log] * * * User Logged In * * * 
-2016-07-27 18:51:45,275 INFO  [Log] with Username orgadmin_des@gems.com 
-2016-07-27 18:51:45,275 INFO  [Log] ########################## 
-2016-07-27 18:54:03,043 INFO  [Log] ########################## 
-2016-07-27 18:54:03,058 INFO  [Log] * * * User Logged In * * * 
-2016-07-27 18:54:03,058 INFO  [Log] with Username orgadmin_des@gems.com 
-2016-07-27 18:54:03,058 INFO  [Log] ########################## 
+2016-07-29 15:19:35,930 INFO  [Log] ########################## 
+2016-07-29 15:19:35,930 INFO  [Log] * * * User Logged In * * * 
+2016-07-29 15:19:35,930 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-07-29 15:19:35,930 INFO  [Log] ########################## 
+2016-07-29 15:24:24,800 INFO  [Log] ########################## 
+2016-07-29 15:24:24,800 INFO  [Log] * * * User Logged In * * * 
+2016-07-29 15:24:24,800 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-07-29 15:24:24,800 INFO  [Log] ########################## 
+2016-07-29 15:25:24,119 INFO  [Log] ########################## 
+2016-07-29 15:25:24,119 INFO  [Log] * * * User Logged In * * * 
+2016-07-29 15:25:24,119 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-07-29 15:25:24,119 INFO  [Log] ########################## 
+2016-07-29 15:25:58,193 INFO  [Log] Qualification added successfully! 
+2016-07-29 15:50:28,422 INFO  [Log] ########################## 
+2016-07-29 15:50:28,422 INFO  [Log] * * * User Logged In * * * 
+2016-07-29 15:50:28,422 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-29 15:50:28,422 INFO  [Log] ########################## 
+2016-07-29 15:55:04,453 INFO  [Log] Setting General Rules for:PG-------------------------------------------------- 
+2016-07-29 15:55:12,497 INFO  [Log] Entering general rule for BOOKS 
+2016-07-29 15:55:41,112 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-29 15:56:07,737 INFO  [Log] Entering general rule for CDS 
+2016-07-29 15:56:32,882 INFO  [Log] Entering general rule for DVDS 
+2016-07-29 15:56:58,611 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-29 15:57:24,584 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-29 15:57:50,050 INFO  [Log] General rules Done:PG-------------*************************------------- 
+2016-07-29 15:57:58,004 INFO  [Log] Entering Fine rule for  
+2016-07-29 15:58:21,017 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-29 15:58:44,338 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-29 16:12:10,541 INFO  [Log] ########################## 
+2016-07-29 16:12:10,541 INFO  [Log] * * * User Logged In * * * 
+2016-07-29 16:12:10,541 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-07-29 16:12:10,541 INFO  [Log] ########################## 
+2016-07-29 16:16:33,535 INFO  [Log] Setting General Rules for:PG-------------------------------------------------- 
+2016-07-29 16:16:43,918 INFO  [Log] Entering general rule for BOOKS 
+2016-07-29 16:17:11,627 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-07-29 16:17:37,383 INFO  [Log] Entering general rule for CDS 
+2016-07-29 16:18:03,007 INFO  [Log] Entering general rule for DVDS 
+2016-07-29 16:18:29,232 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-07-29 16:18:58,789 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-07-29 16:19:26,827 INFO  [Log] General rules Done:PG-------------*************************------------- 
+2016-07-29 16:19:34,800 INFO  [Log] Entering Fine rule for  
+2016-07-29 16:19:58,341 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-07-29 16:20:21,602 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-07-29 16:20:44,942 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-07-29 16:21:08,520 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-07-29 16:21:31,865 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-07-29 16:21:55,093 INFO  [Log] Fine rules Done:PG-------------*************************------------- 
+2016-07-29 16:21:55,093 INFO  [Log] Setting General Rules for:UG-------------------------------------------------- 
+2016-07-29 16:21:56,090 INFO  [Log] Entering general rule for BOOKS 
+2016-08-01 11:58:55,959 INFO  [Log] ########################## 
+2016-08-01 11:58:55,991 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 11:58:55,991 INFO  [Log] with Username indrayanighadge@gmail.com 
+2016-08-01 11:58:55,991 INFO  [Log] ########################## 
+2016-08-01 12:03:23,772 INFO  [Log] Setting General Rules for:PG-------------------------------------------------- 
+2016-08-01 12:03:31,896 INFO  [Log] Entering general rule for BOOKS 
+2016-08-01 12:04:00,521 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-08-01 12:04:26,310 INFO  [Log] Entering general rule for CDS 
+2016-08-01 12:04:52,051 INFO  [Log] Entering general rule for DVDS 
+2016-08-01 12:05:17,611 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-08-01 12:05:43,080 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-08-01 12:06:08,818 INFO  [Log] General rules Done:PG-------------*************************------------- 
+2016-08-01 12:06:16,722 INFO  [Log] Entering Fine rule for  
+2016-08-01 12:06:39,761 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-08-01 12:06:48,308 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-08-01 12:06:56,990 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-08-01 12:07:05,655 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-08-01 12:07:14,464 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-08-01 12:07:23,116 INFO  [Log] Fine rules Done:PG-------------*************************------------- 
+2016-08-01 12:07:23,116 INFO  [Log] Setting General Rules for:UG-------------------------------------------------- 
+2016-08-01 12:07:25,082 INFO  [Log] Entering general rule for BOOKS 
+2016-08-01 12:07:53,625 INFO  [Log] Entering general rule for JOURNALS/PERIODICALS/MAGAZINES 
+2016-08-01 12:08:23,142 INFO  [Log] Entering general rule for CDS 
+2016-08-01 12:08:48,886 INFO  [Log] Entering general rule for DVDS 
+2016-08-01 12:09:17,222 INFO  [Log] Entering general rule for READING HALL BOOKS 
+2016-08-01 12:09:42,648 INFO  [Log] Entering general rule for NEWS LETTERS 
+2016-08-01 12:10:08,461 INFO  [Log] General rules Done:UG-------------*************************------------- 
+2016-08-01 12:10:16,324 INFO  [Log] Entering Fine rule for  
+2016-08-01 12:10:39,664 INFO  [Log] Entering Fine rule for EMPLOYEE 
+2016-08-01 12:11:02,809 INFO  [Log] Entering Fine rule for TEACHING EMPLOYEE 
+2016-08-01 12:11:26,034 INFO  [Log] Entering Fine rule for NON-TEACHING EMPLOYEE 
+2016-08-01 12:11:49,434 INFO  [Log] Entering Fine rule for VISITING EMPLOYEE 
+2016-08-01 12:12:12,735 INFO  [Log] Entering Fine rule for EXECUTIVE EMPLOYEE(MEMBERS) 
+2016-08-01 12:12:35,690 INFO  [Log] Fine rules Done:UG-------------*************************------------- 
+2016-08-01 13:56:44,635 INFO  [Log] ########################## 
+2016-08-01 13:56:44,636 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 13:56:44,636 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-08-01 13:56:44,637 INFO  [Log] ########################## 
+2016-08-01 13:57:19,648 INFO  [Log] Qualification added successfully! 
+2016-08-01 14:55:41,987 INFO  [Log] ########################## 
+2016-08-01 14:55:41,988 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 14:55:41,988 INFO  [Log] with Username principal@gems.com 
+2016-08-01 14:55:41,988 INFO  [Log] ########################## 
+2016-08-01 14:58:06,875 INFO  [Log] ########################## 
+2016-08-01 14:58:06,876 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 14:58:06,876 INFO  [Log] with Username principal@gems.com 
+2016-08-01 14:58:06,876 INFO  [Log] ########################## 
+2016-08-01 15:00:53,600 INFO  [Log] ########################## 
+2016-08-01 15:00:53,601 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 15:00:53,601 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-08-01 15:00:53,601 INFO  [Log] ########################## 
+2016-08-01 15:02:32,116 INFO  [Log] ########################## 
+2016-08-01 15:02:32,116 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 15:02:32,131 INFO  [Log] with Username orgadmin_des@gems.com 
+2016-08-01 15:02:32,131 INFO  [Log] ########################## 
+2016-08-01 15:03:04,913 INFO  [Log] ########################## 
+2016-08-01 15:03:04,913 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 15:03:04,913 INFO  [Log] with Username principal@gems.com 
+2016-08-01 15:03:04,913 INFO  [Log] ########################## 
+2016-08-01 15:22:51,950 INFO  [Log] ########################## 
+2016-08-01 15:22:51,950 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 15:22:51,950 INFO  [Log] with Username principal@gems.com 
+2016-08-01 15:22:51,950 INFO  [Log] ########################## 
+2016-08-01 15:24:37,759 INFO  [Log] ########################## 
+2016-08-01 15:24:37,760 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 15:24:37,760 INFO  [Log] with Username principal@gems.com 
+2016-08-01 15:24:37,760 INFO  [Log] ########################## 
+2016-08-01 16:44:44,248 INFO  [Log] ########################## 
+2016-08-01 16:44:44,248 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 16:44:44,248 INFO  [Log] with Username prinicipal@gems.com 
+2016-08-01 16:44:44,248 INFO  [Log] ########################## 
+2016-08-01 16:45:52,696 INFO  [Log] ########################## 
+2016-08-01 16:45:52,696 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 16:45:52,696 INFO  [Log] with Username principal@gems.com 
+2016-08-01 16:45:52,696 INFO  [Log] ########################## 
+2016-08-01 16:53:26,190 INFO  [Log] ########################## 
+2016-08-01 16:53:26,190 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 16:53:26,206 INFO  [Log] with Username principal@gems.com 
+2016-08-01 16:53:26,206 INFO  [Log] ########################## 
+2016-08-01 16:57:01,394 INFO  [Log] ########################## 
+2016-08-01 16:57:01,394 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 16:57:01,394 INFO  [Log] with Username principal@gems.com 
+2016-08-01 16:57:01,394 INFO  [Log] ########################## 
+2016-08-01 17:00:29,507 INFO  [Log] ########################## 
+2016-08-01 17:00:29,507 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:00:29,507 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:00:29,507 INFO  [Log] ########################## 
+2016-08-01 17:05:11,138 INFO  [Log] ########################## 
+2016-08-01 17:05:11,138 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:05:11,138 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:05:11,138 INFO  [Log] ########################## 
+2016-08-01 17:08:43,709 INFO  [Log] ########################## 
+2016-08-01 17:08:43,709 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:08:43,709 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:08:43,709 INFO  [Log] ########################## 
+2016-08-01 17:11:56,207 INFO  [Log] ########################## 
+2016-08-01 17:11:56,207 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:11:56,207 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:11:56,208 INFO  [Log] ########################## 
+2016-08-01 17:27:18,669 INFO  [Log] ########################## 
+2016-08-01 17:27:18,669 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:27:18,669 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:27:18,669 INFO  [Log] ########################## 
+2016-08-01 17:31:46,396 INFO  [Log] ########################## 
+2016-08-01 17:31:46,396 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 17:31:46,397 INFO  [Log] with Username principal@gems.com 
+2016-08-01 17:31:46,397 INFO  [Log] ########################## 
+2016-08-01 18:08:20,138 INFO  [Log] ########################## 
+2016-08-01 18:08:20,138 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:08:20,138 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:08:20,138 INFO  [Log] ########################## 
+2016-08-01 18:13:07,983 INFO  [Log] ########################## 
+2016-08-01 18:13:07,983 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:13:07,983 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:13:07,983 INFO  [Log] ########################## 
+2016-08-01 18:16:02,625 INFO  [Log] ########################## 
+2016-08-01 18:16:02,625 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:16:02,625 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:16:02,625 INFO  [Log] ########################## 
+2016-08-01 18:18:15,914 INFO  [Log] ########################## 
+2016-08-01 18:18:15,914 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:18:15,914 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:18:15,914 INFO  [Log] ########################## 
+2016-08-01 18:20:42,904 INFO  [Log] ########################## 
+2016-08-01 18:20:42,904 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:20:42,904 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:20:42,904 INFO  [Log] ########################## 
+2016-08-01 18:34:19,993 INFO  [Log] ########################## 
+2016-08-01 18:34:19,993 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:34:19,993 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:34:20,009 INFO  [Log] ########################## 
+2016-08-01 18:35:23,179 INFO  [Log] ########################## 
+2016-08-01 18:35:23,179 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:35:23,179 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:35:23,179 INFO  [Log] ########################## 
+2016-08-01 18:38:35,384 INFO  [Log] ########################## 
+2016-08-01 18:38:35,384 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:38:35,384 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:38:35,384 INFO  [Log] ########################## 
+2016-08-01 18:41:03,129 INFO  [Log] ########################## 
+2016-08-01 18:41:03,129 INFO  [Log] * * * User Logged In * * * 
+2016-08-01 18:41:03,129 INFO  [Log] with Username principal@gems.com 
+2016-08-01 18:41:03,144 INFO  [Log] ########################## 
+2016-08-02 13:28:03,300 INFO  [Log] ########################## 
+2016-08-02 13:28:03,316 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:28:03,316 INFO  [Log] with Username null 
+2016-08-02 13:28:03,316 INFO  [Log] ########################## 
+2016-08-02 13:31:20,205 INFO  [Log] ########################## 
+2016-08-02 13:31:20,205 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:31:20,205 INFO  [Log] with Username principal@gems.com 
+2016-08-02 13:31:20,205 INFO  [Log] ########################## 
+2016-08-02 13:44:49,343 INFO  [Log] ########################## 
+2016-08-02 13:44:49,343 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:44:49,343 INFO  [Log] with Username principal@gems.com 
+2016-08-02 13:44:49,343 INFO  [Log] ########################## 
+2016-08-02 13:51:25,985 INFO  [Log] ########################## 
+2016-08-02 13:51:26,000 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:51:26,000 INFO  [Log] with Username principal@gems.com 
+2016-08-02 13:51:26,000 INFO  [Log] ########################## 
+2016-08-02 13:56:46,075 INFO  [Log] ########################## 
+2016-08-02 13:56:46,075 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:56:46,075 INFO  [Log] with Username principal@gems.com 
+2016-08-02 13:56:46,075 INFO  [Log] ########################## 
+2016-08-02 13:58:16,793 INFO  [Log] ########################## 
+2016-08-02 13:58:16,793 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 13:58:16,793 INFO  [Log] with Username principal@gems.com 
+2016-08-02 13:58:16,793 INFO  [Log] ########################## 
+2016-08-02 14:05:12,224 INFO  [Log] ########################## 
+2016-08-02 14:05:12,224 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:05:12,224 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:05:12,224 INFO  [Log] ########################## 
+2016-08-02 14:06:56,750 INFO  [Log] ########################## 
+2016-08-02 14:06:56,750 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:06:56,750 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:06:56,750 INFO  [Log] ########################## 
+2016-08-02 14:11:50,531 INFO  [Log] ########################## 
+2016-08-02 14:11:50,531 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:11:50,531 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:11:50,531 INFO  [Log] ########################## 
+2016-08-02 14:26:02,511 INFO  [Log] ########################## 
+2016-08-02 14:26:02,511 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:26:02,511 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:26:02,511 INFO  [Log] ########################## 
+2016-08-02 14:43:49,231 INFO  [Log] ########################## 
+2016-08-02 14:43:49,231 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:43:49,231 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:43:49,231 INFO  [Log] ########################## 
+2016-08-02 14:46:02,704 INFO  [Log] ########################## 
+2016-08-02 14:46:02,704 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 14:46:02,704 INFO  [Log] with Username principal@gems.com 
+2016-08-02 14:46:02,704 INFO  [Log] ########################## 
+2016-08-02 15:58:31,351 INFO  [Log] ########################## 
+2016-08-02 15:58:31,351 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 15:58:31,351 INFO  [Log] with Username principal@gems.com 
+2016-08-02 15:58:31,351 INFO  [Log] ########################## 
+2016-08-02 16:17:16,102 INFO  [Log] ########################## 
+2016-08-02 16:17:16,102 INFO  [Log] * * * User Logged In * * * 
+2016-08-02 16:17:16,102 INFO  [Log] with Username principal@gems.com 
+2016-08-02 16:17:16,102 INFO  [Log] ########################## 
+2016-08-03 10:33:08,258 INFO  [Log] ########################## 
+2016-08-03 10:33:08,274 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 10:33:08,274 INFO  [Log] with Username principal@gems.com 
+2016-08-03 10:33:08,274 INFO  [Log] ########################## 
+2016-08-03 10:46:11,462 INFO  [Log] ########################## 
+2016-08-03 10:46:11,462 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 10:46:11,462 INFO  [Log] with Username principal@gems.com 
+2016-08-03 10:46:11,462 INFO  [Log] ########################## 
+2016-08-03 11:49:45,073 INFO  [Log] ########################## 
+2016-08-03 11:49:45,073 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 11:49:45,073 INFO  [Log] with Username principal@gems.com 
+2016-08-03 11:49:45,073 INFO  [Log] ########################## 
+2016-08-03 11:55:24,226 INFO  [Log] ########################## 
+2016-08-03 11:55:24,226 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 11:55:24,226 INFO  [Log] with Username principal@gems.com 
+2016-08-03 11:55:24,226 INFO  [Log] ########################## 
+2016-08-03 12:01:46,428 INFO  [Log] ########################## 
+2016-08-03 12:01:46,428 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 12:01:46,428 INFO  [Log] with Username principal@gems.com 
+2016-08-03 12:01:46,428 INFO  [Log] ########################## 
+2016-08-03 12:02:09,421 INFO  [Log] Prog name made is:FC (Grant in Aid) - Arts - BA(Greek) 
+2016-08-03 12:02:37,516 INFO  [Log] Pattern already present, so choosing it directly 
+2016-08-03 12:03:07,987 INFO  [Log] Auto generate roll is false... 
+2016-08-03 12:04:24,810 INFO  [Log] ########################## 
+2016-08-03 12:04:24,810 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 12:04:24,810 INFO  [Log] with Username principal@gems.com 
+2016-08-03 12:04:24,810 INFO  [Log] ########################## 
+2016-08-03 12:04:41,971 INFO  [Log] Prog name made is:FC (Grant in Aid) - Arts - BA(Greek) 
+2016-08-03 12:05:57,477 INFO  [Log] ########################## 
+2016-08-03 12:05:57,477 INFO  [Log] * * * User Logged In * * * 
+2016-08-03 12:05:57,477 INFO  [Log] with Username principal@gems.com 
+2016-08-03 12:05:57,477 INFO  [Log] ########################## 
+2016-08-03 12:06:14,674 INFO  [Log] Prog name made is:FC (Grant in Aid) - Arts - BA(Greek) 
+2016-08-03 12:06:53,463 INFO  [Log] Pattern already present, so choosing it directly 

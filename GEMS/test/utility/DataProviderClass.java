@@ -2,6 +2,8 @@ package utility;
 
 import java.io.File;
 
+import org.testng.annotations.DataProvider;
+
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -65,13 +67,13 @@ public String [] getSimpleArray(String xlFilePath, String sheetName,
 				tabArray[ci] = sheet.getCell(colNo, i).getContents();
 			}
 	} catch (Exception e) {
-		System.out.println("error in DataProviderClass.getTableArray()");
+		System.out.println("error in DataProviderClass.getSimpleArray()");
 
 	}
 
 	return tabArray;
 	}
-
+	
 public DataProviderClass() {
 	super();
 	// TODO Auto-generated constructor stub
