@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="139751" started-at="2016-08-03T06:35:24Z" finished-at="2016-08-03T06:37:44Z">
+  <suite name="Default suite" duration-ms="158386" started-at="2016-09-09T09:46:53Z" finished-at="2016-09-09T09:49:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="139751" started-at="2016-08-03T06:35:24Z" finished-at="2016-08-03T06:37:44Z">
-      <class name="scripts.NewProgramGenerator">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.NewProgramGenerator@53c7a917]" name="setUp" is-config="true" duration-ms="4388" started-at="2016-08-03T12:05:24Z" finished-at="2016-08-03T12:05:28Z">
+    <test name="Default test" duration-ms="158386" started-at="2016-09-09T09:46:53Z" finished-at="2016-09-09T09:49:31Z">
+      <class name="scripts.FormConfiguration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.FormConfiguration@6fb05c54]" name="setUp" is-config="true" duration-ms="5127" started-at="2016-09-09T15:16:53Z" finished-at="2016-09-09T15:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tasks()[pri:0, instance:scripts.NewProgramGenerator@53c7a917]" name="tasks" duration-ms="135301" started-at="2016-08-03T12:05:28Z" finished-at="2016-08-03T12:07:43Z">
+        <test-method status="PASS" signature="admissionConfiguration()[pri:0, instance:scripts.FormConfiguration@6fb05c54]" name="admissionConfiguration" duration-ms="153159" started-at="2016-09-09T15:16:58Z" finished-at="2016-09-09T15:19:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tasks -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.NewProgramGenerator@53c7a917]" name="cleanUp" is-config="true" duration-ms="47" started-at="2016-08-03T12:07:43Z" finished-at="2016-08-03T12:07:44Z">
+        </test-method> <!-- admissionConfiguration -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:scripts.FormConfiguration@6fb05c54]" name="cleanUp" is-config="true" duration-ms="93" started-at="2016-09-09T15:19:31Z" finished-at="2016-09-09T15:19:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- scripts.NewProgramGenerator -->
+      </class> <!-- scripts.FormConfiguration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

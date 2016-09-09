@@ -30,7 +30,7 @@ public class FillForm {
 	@DataProvider(name = "StudentDetails")
 	public Object[][] createData1() {
 		Object[][] retObjArr = getTableArray(
-				"test\\resources\\data\\StudentDetails.xls", "FYBSC-General",
+				"test\\resources\\data\\StudentDetails.xls", "FYBA-General",
 				"POINTER");
 		return (retObjArr);
 	}
@@ -63,7 +63,7 @@ public class FillForm {
 //		}
 		
 		fillStudentDetails(firstName, middleName, lastName, fullName, emailID, Category, domicile);
-	//	fillTenthDetails( tenthScore);
+		fillTenthDetails( tenthScore);
 		fillTwelthDetails(twelthScore, physics, chemistry, mathematics, mathematicsTotal, biology, bioTotal);
 	//	documentDetails();
 		payment();
@@ -267,31 +267,31 @@ driver.findElement(By.cssSelector("li [href='#next']")).click();
 		Select boardName= new Select(driver.findElement(By.id("applstud12thboardname"))); // Board of 12th 
 		boardName.selectByVisibleText("MAHARASHTRA STATE BOARD");
 		
-		driver.findElement(By.id("txt12Englishmarks")).clear();          // Only for Bsc - comp sci
-		driver.findElement(By.id("txt12Englishmarks")).sendKeys("50"); // Marks obtained in English
-		driver.findElement(By.id("txt12Englishoutof")).clear();
-		driver.findElement(By.id("txt12Englishoutof")).sendKeys("100"); // Out oFF marks
-				
-		driver.findElement(By.id("txt12Physicsmarks")).clear();
-		driver.findElement(By.id("txt12Physicsmarks")).sendKeys(physics);
-		driver.findElement(By.id("txt12Physicsoutof")).clear();
-		driver.findElement(By.id("txt12Physicsoutof")).sendKeys("100");
-		
-		driver.findElement(By.id("txt12Mathematicsmarks")).clear();
-		driver.findElement(By.id("txt12Mathematicsmarks")).sendKeys(mathematics);
-		driver.findElement(By.id("txt12Mathematicsoutof")).clear();
-		driver.findElement(By.id("txt12Mathematicsoutof")).sendKeys(mathematicsTotal);
-		
-		driver.findElement(By.id("txt12Chemistrymarks")).clear();
-		driver.findElement(By.id("txt12Chemistrymarks")).sendKeys(chemistry);
-		driver.findElement(By.id("txt12Chemistryoutof")).clear();
-		driver.findElement(By.id("txt12Chemistryoutof")).sendKeys("100");
-
-		driver.findElement(By.id("txt12Biologymarks")).clear();
-		driver.findElement(By.id("txt12Biologymarks")).sendKeys(biology);
-		driver.findElement(By.id("txt12Biologyoutof")).clear();
-		driver.findElement(By.id("txt12Biologyoutof")).sendKeys(bioTotal);  
-		
+//		driver.findElement(By.id("txt12Englishmarks")).clear();          // Only for Bsc - comp sci
+//		driver.findElement(By.id("txt12Englishmarks")).sendKeys("50"); // Marks obtained in English
+//		driver.findElement(By.id("txt12Englishoutof")).clear();
+//		driver.findElement(By.id("txt12Englishoutof")).sendKeys("100"); // Out oFF marks
+//				
+//		driver.findElement(By.id("txt12Physicsmarks")).clear();
+//		driver.findElement(By.id("txt12Physicsmarks")).sendKeys(physics);
+//		driver.findElement(By.id("txt12Physicsoutof")).clear();
+//		driver.findElement(By.id("txt12Physicsoutof")).sendKeys("100");
+//		
+//		driver.findElement(By.id("txt12Mathematicsmarks")).clear();
+//		driver.findElement(By.id("txt12Mathematicsmarks")).sendKeys(mathematics);
+//		driver.findElement(By.id("txt12Mathematicsoutof")).clear();
+//		driver.findElement(By.id("txt12Mathematicsoutof")).sendKeys(mathematicsTotal);
+//		
+//		driver.findElement(By.id("txt12Chemistrymarks")).clear();
+//		driver.findElement(By.id("txt12Chemistrymarks")).sendKeys(chemistry);
+//		driver.findElement(By.id("txt12Chemistryoutof")).clear();
+//		driver.findElement(By.id("txt12Chemistryoutof")).sendKeys("100");
+//
+//		driver.findElement(By.id("txt12Biologymarks")).clear();
+//		driver.findElement(By.id("txt12Biologymarks")).sendKeys(biology);
+//		driver.findElement(By.id("txt12Biologyoutof")).clear();
+//		driver.findElement(By.id("txt12Biologyoutof")).sendKeys(bioTotal);  
+//		
 		driver.findElement(By.id("applstud12thschoolname")).clear();
 		driver.findElement(By.id("applstud12thschoolname")).sendKeys("Twelth Class School"); // School Name
 				

@@ -258,7 +258,14 @@ public void gotoPostAndROleConfig()
 		librarianRole= driver.findElement(By.linkText("Library Admin"));
 		MyActions.click(driver,librarianRole);
 	}
-
+	
+	public void gotoAdmissionConfiguration()
+	{
+		MyActions.click(driver, By.linkText("Admission Configuration"));
+		MyActions.click(driver, By.xpath("// a[contains(text(),'Admission Configuration')] [contains(@href,'2')]"));
+		
+		
+	}
 	public void approveAll(String programName, String year, String round,
 			String entrance) {
 		MyActions.click(driver, institutional_MenuItem);

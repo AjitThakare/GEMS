@@ -46,7 +46,7 @@ public class Registration {
 
 		Select courseName = new Select(driver.findElement(By
 				.id("selInstituteCourseStrength")));
-		courseName.selectByVisibleText("DES Pune Institute-CON-Basic B.Sc.Nursing");
+		courseName.selectByIndex(2);   // It is HARD COded right now, to be taken from file in future
 
 		driver.findElement(By.id("firstName")).sendKeys(firstName);
 		driver.findElement(By.id("middleName")).sendKeys(middleName);
@@ -107,7 +107,7 @@ public class Registration {
 			int[] generateCount) { //generate new email if current emailId is already registered!
 		generateCount[0] = generateCount[0] + 1;
 		return firstName.toLowerCase() + "_" + lastName.toLowerCase()
-				+ generateCount[0] + "@fybscgen.com";
+				+ generateCount[0] + "@fyba.com";
 	}
 
 	@BeforeClass
