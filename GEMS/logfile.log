@@ -878,3 +878,415 @@
 2016-09-09 15:17:27,271 INFO  [Log] * * * User Logged In * * * 
 2016-09-09 15:17:27,271 INFO  [Log] with Username principal@gems.com 
 2016-09-09 15:17:27,271 INFO  [Log] ########################## 
+2016-09-12 17:15:55,816 INFO  [Log] ########################## 
+2016-09-12 17:15:55,847 INFO  [Log] * * * User Logged In * * * 
+2016-09-12 17:15:55,847 INFO  [Log] with Username principal@gems.com 
+2016-09-12 17:15:55,847 INFO  [Log] ########################## 
+2016-09-12 17:30:10,374 INFO  [Log] ########################## 
+2016-09-12 17:30:10,374 INFO  [Log] * * * User Logged In * * * 
+2016-09-12 17:30:10,374 INFO  [Log] with Username principal@gems.com 
+2016-09-12 17:30:10,374 INFO  [Log] ########################## 
+2016-09-13 11:13:15,793 INFO  [Log] ########################## 
+2016-09-13 11:13:15,824 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 11:13:15,824 INFO  [Log] with Username principal@gems.com 
+2016-09-13 11:13:15,824 INFO  [Log] ########################## 
+2016-09-13 15:25:23,118 INFO  [Log] ########################## 
+2016-09-13 15:25:23,119 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 15:25:23,119 INFO  [Log] with Username principal@gems.com 
+2016-09-13 15:25:23,119 INFO  [Log] ########################## 
+2016-09-13 15:45:54,819 INFO  [Log] ########################## 
+2016-09-13 15:45:54,819 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 15:45:54,819 INFO  [Log] with Username principal@gems.com 
+2016-09-13 15:45:54,819 INFO  [Log] ########################## 
+2016-09-13 15:51:30,834 INFO  [Log] ########################## 
+2016-09-13 15:51:30,835 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 15:51:30,835 INFO  [Log] with Username principal@gems.com 
+2016-09-13 15:51:30,835 INFO  [Log] ########################## 
+2016-09-13 15:58:10,614 INFO  [Log] ########################## 
+2016-09-13 15:58:10,615 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 15:58:10,615 INFO  [Log] with Username principal@gems.com 
+2016-09-13 15:58:10,615 INFO  [Log] ########################## 
+2016-09-13 15:59:32,026 INFO  [Log] ########################## 
+2016-09-13 15:59:32,026 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 15:59:32,026 INFO  [Log] with Username principal@gems.com 
+2016-09-13 15:59:32,027 INFO  [Log] ########################## 
+2016-09-13 16:02:28,383 INFO  [Log] ########################## 
+2016-09-13 16:02:28,384 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 16:02:28,384 INFO  [Log] with Username principal@gems.com 
+2016-09-13 16:02:28,384 INFO  [Log] ########################## 
+2016-09-13 16:32:23,346 INFO  [Log] ########################## 
+2016-09-13 16:32:23,362 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 16:32:23,362 INFO  [Log] with Username principal@gems.com 
+2016-09-13 16:32:23,362 INFO  [Log] ########################## 
+2016-09-13 16:52:30,777 INFO  [Log] ########################## 
+2016-09-13 16:52:30,777 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 16:52:30,777 INFO  [Log] with Username principal@gems.com 
+2016-09-13 16:52:30,777 INFO  [Log] ########################## 
+2016-09-13 16:54:24,636 INFO  [Log] ########################## 
+2016-09-13 16:54:24,638 INFO  [Log] * * * User Logged In * * * 
+2016-09-13 16:54:24,638 INFO  [Log] with Username principal@gems.com 
+2016-09-13 16:54:24,638 INFO  [Log] ########################## 
+2016-09-14 09:55:22,906 INFO  [Log] ########################## 
+2016-09-14 09:55:22,941 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 09:55:22,941 INFO  [Log] with Username principal@gems.com 
+2016-09-14 09:55:22,941 INFO  [Log] ########################## 
+2016-09-14 13:43:00,530 INFO  [Log] ########################## 
+2016-09-14 13:43:00,561 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 13:43:00,561 INFO  [Log] with Username principal@gems.com 
+2016-09-14 13:43:00,561 INFO  [Log] ########################## 
+2016-09-14 13:53:55,816 INFO  [Log] ########################## 
+2016-09-14 13:53:55,816 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 13:53:55,816 INFO  [Log] with Username principal@gems.com 
+2016-09-14 13:53:55,816 INFO  [Log] ########################## 
+2016-09-14 13:58:54,923 INFO  [Log] ########################## 
+2016-09-14 13:58:54,923 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 13:58:54,923 INFO  [Log] with Username principal@gems.com 
+2016-09-14 13:58:54,923 INFO  [Log] ########################## 
+2016-09-14 14:34:02,678 INFO  [Log] ########################## 
+2016-09-14 14:34:02,679 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 14:34:02,679 INFO  [Log] with Username principal@gems.com 
+2016-09-14 14:34:02,679 INFO  [Log] ########################## 
+2016-09-14 14:55:57,243 INFO  [Log] ########################## 
+2016-09-14 14:55:57,259 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 14:55:57,259 INFO  [Log] with Username principal@gems.com 
+2016-09-14 14:55:57,259 INFO  [Log] ########################## 
+2016-09-14 15:07:58,818 INFO  [Log] ########################## 
+2016-09-14 15:07:58,818 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:07:58,818 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:07:58,818 INFO  [Log] ########################## 
+2016-09-14 15:12:48,336 INFO  [Log] ########################## 
+2016-09-14 15:12:48,336 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:12:48,336 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:12:48,336 INFO  [Log] ########################## 
+2016-09-14 15:42:42,033 INFO  [Log] ########################## 
+2016-09-14 15:42:42,033 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:42:42,033 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:42:42,033 INFO  [Log] ########################## 
+2016-09-14 15:45:00,821 INFO  [Log] ########################## 
+2016-09-14 15:45:00,821 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:45:00,821 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:45:00,821 INFO  [Log] ########################## 
+2016-09-14 15:48:00,055 INFO  [Log] ########################## 
+2016-09-14 15:48:00,055 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:48:00,055 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:48:00,055 INFO  [Log] ########################## 
+2016-09-14 15:54:52,481 INFO  [Log] ########################## 
+2016-09-14 15:54:52,481 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 15:54:52,481 INFO  [Log] with Username principal@gems.com 
+2016-09-14 15:54:52,481 INFO  [Log] ########################## 
+2016-09-14 16:00:47,613 INFO  [Log] ########################## 
+2016-09-14 16:00:47,613 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:00:47,613 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:00:47,613 INFO  [Log] ########################## 
+2016-09-14 16:05:45,500 INFO  [Log] ########################## 
+2016-09-14 16:05:45,500 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:05:45,501 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:05:45,501 INFO  [Log] ########################## 
+2016-09-14 16:12:06,310 INFO  [Log] ########################## 
+2016-09-14 16:12:06,310 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:12:06,310 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:12:06,310 INFO  [Log] ########################## 
+2016-09-14 16:14:46,376 INFO  [Log] ########################## 
+2016-09-14 16:14:46,376 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:14:46,376 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:14:46,376 INFO  [Log] ########################## 
+2016-09-14 16:17:04,574 INFO  [Log] ########################## 
+2016-09-14 16:17:04,574 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:17:04,574 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:17:04,574 INFO  [Log] ########################## 
+2016-09-14 16:30:22,094 INFO  [Log] ########################## 
+2016-09-14 16:30:22,094 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:30:22,094 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:30:22,094 INFO  [Log] ########################## 
+2016-09-14 16:32:48,803 INFO  [Log] ########################## 
+2016-09-14 16:32:48,803 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:32:48,803 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:32:48,803 INFO  [Log] ########################## 
+2016-09-14 16:35:54,013 INFO  [Log] ########################## 
+2016-09-14 16:35:54,013 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 16:35:54,013 INFO  [Log] with Username principal@gems.com 
+2016-09-14 16:35:54,013 INFO  [Log] ########################## 
+2016-09-14 17:06:49,927 INFO  [Log] ########################## 
+2016-09-14 17:06:49,928 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 17:06:49,928 INFO  [Log] with Username principal@gems.com 
+2016-09-14 17:06:49,928 INFO  [Log] ########################## 
+2016-09-14 17:59:00,986 INFO  [Log] ########################## 
+2016-09-14 17:59:00,986 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 17:59:00,986 INFO  [Log] with Username principal@gems.com 
+2016-09-14 17:59:00,986 INFO  [Log] ########################## 
+2016-09-14 18:47:11,978 INFO  [Log] ########################## 
+2016-09-14 18:47:11,979 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 18:47:11,980 INFO  [Log] with Username principal@gems.com 
+2016-09-14 18:47:11,980 INFO  [Log] ########################## 
+2016-09-14 18:49:08,051 INFO  [Log] ########################## 
+2016-09-14 18:49:08,051 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 18:49:08,051 INFO  [Log] with Username principal@gems.com 
+2016-09-14 18:49:08,051 INFO  [Log] ########################## 
+2016-09-14 19:00:11,731 INFO  [Log] ########################## 
+2016-09-14 19:00:11,732 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 19:00:11,732 INFO  [Log] with Username principal@gems.com 
+2016-09-14 19:00:11,732 INFO  [Log] ########################## 
+2016-09-14 19:06:32,521 INFO  [Log] ########################## 
+2016-09-14 19:06:32,521 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 19:06:32,522 INFO  [Log] with Username principal@gems.com 
+2016-09-14 19:06:32,522 INFO  [Log] ########################## 
+2016-09-14 19:08:46,347 INFO  [Log] ########################## 
+2016-09-14 19:08:46,347 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 19:08:46,347 INFO  [Log] with Username principal@gems.com 
+2016-09-14 19:08:46,347 INFO  [Log] ########################## 
+2016-09-14 19:11:44,158 INFO  [Log] ########################## 
+2016-09-14 19:11:44,158 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 19:11:44,158 INFO  [Log] with Username principal@gems.com 
+2016-09-14 19:11:44,158 INFO  [Log] ########################## 
+2016-09-14 19:16:17,564 INFO  [Log] ########################## 
+2016-09-14 19:16:17,565 INFO  [Log] * * * User Logged In * * * 
+2016-09-14 19:16:17,565 INFO  [Log] with Username principal@gems.com 
+2016-09-14 19:16:17,565 INFO  [Log] ########################## 
+2016-09-16 09:22:46,441 INFO  [Log] ########################## 
+2016-09-16 09:22:46,470 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 09:22:46,470 INFO  [Log] with Username principal@gems.com 
+2016-09-16 09:22:46,470 INFO  [Log] ########################## 
+2016-09-16 10:32:26,117 INFO  [Log] ########################## 
+2016-09-16 10:32:26,118 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:32:26,118 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:32:26,118 INFO  [Log] ########################## 
+2016-09-16 10:35:42,604 INFO  [Log] ########################## 
+2016-09-16 10:35:42,604 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:35:42,605 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:35:42,605 INFO  [Log] ########################## 
+2016-09-16 10:39:01,049 INFO  [Log] ########################## 
+2016-09-16 10:39:01,050 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:39:01,050 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:39:01,050 INFO  [Log] ########################## 
+2016-09-16 10:45:07,710 INFO  [Log] ########################## 
+2016-09-16 10:45:07,711 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:45:07,711 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:45:07,711 INFO  [Log] ########################## 
+2016-09-16 10:49:58,385 INFO  [Log] ########################## 
+2016-09-16 10:49:58,385 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:49:58,386 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:49:58,386 INFO  [Log] ########################## 
+2016-09-16 10:58:28,147 INFO  [Log] ########################## 
+2016-09-16 10:58:28,148 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 10:58:28,148 INFO  [Log] with Username principal@gems.com 
+2016-09-16 10:58:28,148 INFO  [Log] ########################## 
+2016-09-16 11:06:06,671 INFO  [Log] ########################## 
+2016-09-16 11:06:06,672 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:06:06,672 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:06:06,672 INFO  [Log] ########################## 
+2016-09-16 11:25:14,963 INFO  [Log] ########################## 
+2016-09-16 11:25:14,964 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:25:14,964 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:25:14,964 INFO  [Log] ########################## 
+2016-09-16 11:29:03,570 INFO  [Log] ########################## 
+2016-09-16 11:29:03,571 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:29:03,572 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:29:03,572 INFO  [Log] ########################## 
+2016-09-16 11:32:17,758 INFO  [Log] ########################## 
+2016-09-16 11:32:17,759 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:32:17,759 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:32:17,759 INFO  [Log] ########################## 
+2016-09-16 11:36:53,751 INFO  [Log] ########################## 
+2016-09-16 11:36:53,752 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:36:53,752 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:36:53,752 INFO  [Log] ########################## 
+2016-09-16 11:40:12,301 INFO  [Log] ########################## 
+2016-09-16 11:40:12,302 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:40:12,302 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:40:12,302 INFO  [Log] ########################## 
+2016-09-16 11:43:56,328 INFO  [Log] ########################## 
+2016-09-16 11:43:56,328 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:43:56,328 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:43:56,328 INFO  [Log] ########################## 
+2016-09-16 11:51:16,225 INFO  [Log] ########################## 
+2016-09-16 11:51:16,225 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 11:51:16,225 INFO  [Log] with Username principal@gems.com 
+2016-09-16 11:51:16,225 INFO  [Log] ########################## 
+2016-09-16 12:04:27,953 INFO  [Log] ########################## 
+2016-09-16 12:04:27,953 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 12:04:27,953 INFO  [Log] with Username principal@gems.com 
+2016-09-16 12:04:27,953 INFO  [Log] ########################## 
+2016-09-16 14:03:41,233 INFO  [Log] ########################## 
+2016-09-16 14:03:41,234 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:03:41,234 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:03:41,234 INFO  [Log] ########################## 
+2016-09-16 14:09:12,958 INFO  [Log] ########################## 
+2016-09-16 14:09:12,959 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:09:12,959 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:09:12,959 INFO  [Log] ########################## 
+2016-09-16 14:13:12,994 INFO  [Log] ########################## 
+2016-09-16 14:13:12,994 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:13:12,994 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:13:12,994 INFO  [Log] ########################## 
+2016-09-16 14:17:39,689 INFO  [Log] ########################## 
+2016-09-16 14:17:39,690 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:17:39,690 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:17:39,690 INFO  [Log] ########################## 
+2016-09-16 14:24:01,195 INFO  [Log] ########################## 
+2016-09-16 14:24:01,196 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:24:01,196 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:24:01,196 INFO  [Log] ########################## 
+2016-09-16 14:28:28,007 INFO  [Log] ########################## 
+2016-09-16 14:28:28,008 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:28:28,008 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:28:28,009 INFO  [Log] ########################## 
+2016-09-16 14:33:53,672 INFO  [Log] ########################## 
+2016-09-16 14:33:53,673 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:33:53,673 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:33:53,673 INFO  [Log] ########################## 
+2016-09-16 14:37:36,591 INFO  [Log] ########################## 
+2016-09-16 14:37:36,592 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:37:36,592 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:37:36,593 INFO  [Log] ########################## 
+2016-09-16 14:46:30,900 INFO  [Log] ########################## 
+2016-09-16 14:46:30,901 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:46:30,901 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:46:30,902 INFO  [Log] ########################## 
+2016-09-16 14:56:04,161 INFO  [Log] ########################## 
+2016-09-16 14:56:04,161 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 14:56:04,161 INFO  [Log] with Username principal@gems.com 
+2016-09-16 14:56:04,161 INFO  [Log] ########################## 
+2016-09-16 15:14:50,952 INFO  [Log] ########################## 
+2016-09-16 15:14:50,952 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:14:50,952 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:14:50,952 INFO  [Log] ########################## 
+2016-09-16 15:25:03,940 INFO  [Log] ########################## 
+2016-09-16 15:25:03,956 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:25:03,956 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:25:03,956 INFO  [Log] ########################## 
+2016-09-16 15:37:06,886 INFO  [Log] ########################## 
+2016-09-16 15:37:06,886 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:37:06,886 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:37:06,886 INFO  [Log] ########################## 
+2016-09-16 15:41:08,567 INFO  [Log] ########################## 
+2016-09-16 15:41:08,567 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:41:08,567 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:41:08,567 INFO  [Log] ########################## 
+2016-09-16 15:46:28,956 INFO  [Log] ########################## 
+2016-09-16 15:46:28,956 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:46:28,956 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:46:28,956 INFO  [Log] ########################## 
+2016-09-16 15:53:44,689 INFO  [Log] ########################## 
+2016-09-16 15:53:44,689 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:53:44,689 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:53:44,689 INFO  [Log] ########################## 
+2016-09-16 15:58:03,077 INFO  [Log] ########################## 
+2016-09-16 15:58:03,077 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 15:58:03,077 INFO  [Log] with Username principal@gems.com 
+2016-09-16 15:58:03,077 INFO  [Log] ########################## 
+2016-09-16 16:00:52,808 INFO  [Log] ########################## 
+2016-09-16 16:00:52,808 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 16:00:52,808 INFO  [Log] with Username principal@gems.com 
+2016-09-16 16:00:52,808 INFO  [Log] ########################## 
+2016-09-16 16:04:36,807 INFO  [Log] ########################## 
+2016-09-16 16:04:36,807 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 16:04:36,807 INFO  [Log] with Username principal@gems.com 
+2016-09-16 16:04:36,807 INFO  [Log] ########################## 
+2016-09-16 17:03:32,246 INFO  [Log] ########################## 
+2016-09-16 17:03:32,247 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:03:32,247 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:03:32,247 INFO  [Log] ########################## 
+2016-09-16 17:06:39,469 INFO  [Log] ########################## 
+2016-09-16 17:06:39,470 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:06:39,470 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:06:39,470 INFO  [Log] ########################## 
+2016-09-16 17:10:27,551 INFO  [Log] ########################## 
+2016-09-16 17:10:27,552 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:10:27,552 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:10:27,552 INFO  [Log] ########################## 
+2016-09-16 17:15:32,147 INFO  [Log] ########################## 
+2016-09-16 17:15:32,148 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:15:32,148 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:15:32,148 INFO  [Log] ########################## 
+2016-09-16 17:21:15,710 INFO  [Log] ########################## 
+2016-09-16 17:21:15,710 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:21:15,711 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:21:15,711 INFO  [Log] ########################## 
+2016-09-16 17:25:50,320 INFO  [Log] ########################## 
+2016-09-16 17:25:50,321 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:25:50,321 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:25:50,321 INFO  [Log] ########################## 
+2016-09-16 17:29:15,920 INFO  [Log] ########################## 
+2016-09-16 17:29:15,920 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:29:15,920 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:29:15,920 INFO  [Log] ########################## 
+2016-09-16 17:36:41,461 INFO  [Log] ########################## 
+2016-09-16 17:36:41,461 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:36:41,461 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:36:41,461 INFO  [Log] ########################## 
+2016-09-16 17:40:12,450 INFO  [Log] ########################## 
+2016-09-16 17:40:12,451 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:40:12,451 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:40:12,451 INFO  [Log] ########################## 
+2016-09-16 17:48:29,130 INFO  [Log] ########################## 
+2016-09-16 17:48:29,130 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:48:29,130 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:48:29,131 INFO  [Log] ########################## 
+2016-09-16 17:58:47,763 INFO  [Log] ########################## 
+2016-09-16 17:58:47,763 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 17:58:47,763 INFO  [Log] with Username principal@gems.com 
+2016-09-16 17:58:47,763 INFO  [Log] ########################## 
+2016-09-16 17:59:02,196 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:02,196 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 17:59:02,211 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:02,211 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 17:59:02,211 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:02,211 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 17:59:04,225 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:04,225 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 17:59:04,225 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:04,225 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 17:59:04,240 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond 
+2016-09-16 17:59:04,240 INFO  [RetryExec] Retrying request to {}->http://127.0.0.1:7055 
+2016-09-16 18:00:21,902 INFO  [Log] ########################## 
+2016-09-16 18:00:21,903 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:00:21,903 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:00:21,903 INFO  [Log] ########################## 
+2016-09-16 18:12:34,585 INFO  [Log] ########################## 
+2016-09-16 18:12:34,585 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:12:34,585 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:12:34,585 INFO  [Log] ########################## 
+2016-09-16 18:22:45,000 INFO  [Log] ########################## 
+2016-09-16 18:22:45,000 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:22:45,000 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:22:45,000 INFO  [Log] ########################## 
+2016-09-16 18:28:26,190 INFO  [Log] ########################## 
+2016-09-16 18:28:26,191 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:28:26,191 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:28:26,191 INFO  [Log] ########################## 
+2016-09-16 18:33:17,920 INFO  [Log] ########################## 
+2016-09-16 18:33:17,921 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:33:17,921 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:33:17,921 INFO  [Log] ########################## 
+2016-09-16 18:39:45,612 INFO  [Log] ########################## 
+2016-09-16 18:39:45,613 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:39:45,613 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:39:45,613 INFO  [Log] ########################## 
+2016-09-16 18:45:06,989 INFO  [Log] ########################## 
+2016-09-16 18:45:06,989 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:45:06,989 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:45:06,989 INFO  [Log] ########################## 
+2016-09-16 18:50:35,527 INFO  [Log] ########################## 
+2016-09-16 18:50:35,528 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 18:50:35,528 INFO  [Log] with Username principal@gems.com 
+2016-09-16 18:50:35,528 INFO  [Log] ########################## 
+2016-09-16 19:00:20,964 INFO  [Log] ########################## 
+2016-09-16 19:00:20,965 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 19:00:20,965 INFO  [Log] with Username principal@gems.com 
+2016-09-16 19:00:20,965 INFO  [Log] ########################## 
+2016-09-16 19:04:12,444 INFO  [Log] ########################## 
+2016-09-16 19:04:12,444 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 19:04:12,444 INFO  [Log] with Username principal@gems.com 
+2016-09-16 19:04:12,445 INFO  [Log] ########################## 
+2016-09-16 19:07:40,703 INFO  [Log] ########################## 
+2016-09-16 19:07:40,704 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 19:07:40,704 INFO  [Log] with Username principal@gems.com 
+2016-09-16 19:07:40,704 INFO  [Log] ########################## 
+2016-09-16 19:12:13,540 INFO  [Log] ########################## 
+2016-09-16 19:12:13,540 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 19:12:13,540 INFO  [Log] with Username principal@gems.com 
+2016-09-16 19:12:13,540 INFO  [Log] ########################## 
+2016-09-16 19:15:18,899 INFO  [Log] ########################## 
+2016-09-16 19:15:18,899 INFO  [Log] * * * User Logged In * * * 
+2016-09-16 19:15:18,899 INFO  [Log] with Username principal@gems.com 
+2016-09-16 19:15:18,899 INFO  [Log] ########################## 
